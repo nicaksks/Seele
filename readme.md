@@ -1,6 +1,6 @@
 <div align="center"><img src="https://i.imgur.com/VCvZhWT.jpg" alt="Seele" width="30%"></img></div>
 
-A simple **API** for retrieving data from **Honkai Impact 3rd**.<br>
+A simple **API** to retrieve data from **Honkai Impact 3rd**.<br>
 The **API** development is still in its early stages, missing **error** handling and an automatic **DS** generation system.
 
 To retrieve the **DS, Cookie Token and lToken** you need to access **[Honkai Impact 3rd Battle Chronicle](https://act.hoyolab.com/app/community-game-records-sea/index.html?bbs_presentation_style=fullscreen&bbs_auth_required=true&gid=1&utm_source=introduction#/bh3)** and wait for the page to load.<br>

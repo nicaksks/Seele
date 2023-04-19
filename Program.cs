@@ -7,7 +7,7 @@ namespace Seele
         public static async Task<int> Main(string[] args)
         {
              //Honkai ID || HoYoLAB ID || Cookie Token || lToken || DS;
-            var account = await HonkaiAPI.Request("", "", "", "", "");
+            var account = await HonkaiAPI.Request("102514966", "318252260", "4ZQdCkgCnBdx0RnTEkZxwm2yTmjYC8d8ymxzAONx", "agExVGrGipFUt2z7boYirLml7WeQvgGfJu7T058k", "1681916941,3pfcW6,7cde7530a87bb8a8ab80fb3294a664c4");
             var info = account.role;
             var stats = account.stats;
             var preference = account.preference;
