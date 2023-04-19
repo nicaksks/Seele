@@ -1,4 +1,4 @@
-<center><img src="https://i.imgur.com/VCvZhWT.jpg" alt="Seele" width="30%"></img><center>
+<div align="center"><img src="https://i.imgur.com/VCvZhWT.jpg" alt="Seele" width="30%"></img></div>
 
 A simple **API** for retrieving data from **Honkai Impact 3rd**.<br>
 The **API** development is still in its early stages, missing **error** handling and an automatic **DS** generation system.
@@ -11,6 +11,6 @@ In the console there will be a request with an error, click on this request and 
 document.write(document.cookie);
 ```
 
-After copying the **DS, Cookie and lToken**, go to **[Program.cs](https://github.com/nicaksks/seele/blob/main/program.cs)** and paste your **UID (Honkai Impact), ID (HoYoLAB), Cookie Token, lToken and DS**<br>
-Inside the **[Program.cs](https://github.com/nicaksks/seele/blob/main/program.cs)** file there is an example of an **API** request.
-<center><img src="https://i.imgur.com/tNpXiFq.png" alt="Example" width="30%"></img></center>
+After copying the **DS, Cookie and lToken**, go to **[Program.cs](https://github.com/nicaksks/Seele/blob/main/Program.cs)** and paste your **UID (Honkai Impact), ID (HoYoLAB), Cookie Token, lToken and DS**<br>
+Inside the **[Program.cs](https://github.com/nicaksks/Seele/blob/main/Program.cs)** file there is an example of an **API** request.
+<div align="center"><img src="https://i.imgur.com/tNpXiFq.png" alt="Example" width="30%"></img></div>
