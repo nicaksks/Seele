@@ -3,10 +3,23 @@ using SeeleAPI.Model.Honkai;
 
 namespace SeeleAPI.Core.HonkaiAPI
 {
-    internal class HonkaiAPI
+    public class HonkaiAPI
     {
+        private string uid;
+        private string id;
+        private string cookie;
+        private string token;
+        private string ds;
 
-        public static async Task<Data> Request(string uid, string id, string cookie, string token, string ds)
+        public HonkaiAPI(string uid, string id, string cookie, string token, string ds)
+        {
+            this.uid = uid;
+            this.id = id;
+            this.cookie = cookie;
+            this.token = token;
+            this.ds = ds;
+        }
+        public async Task<Data> Request()
         {
             const string version = "1.5.0";
             const string type = "5";
